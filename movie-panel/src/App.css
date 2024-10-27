@@ -1,0 +1,153 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #282c34;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-form input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.movie-item {
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+
+.movie-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Main page styling */
+.movie-detail-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.movie-detail-page h2{
+  color: white;
+}
+
+/* Main movie card styling */
+.movie-card {
+  display: flex;
+  gap: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.movie-card-left, .movie-card-right {
+  flex: 1;
+}
+
+/* Left side styling */
+.movie-poster-container {
+  width: 45%;
+  float: left;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-info {
+  margin-left: 15px;
+  width: 50%;
+  float: right;
+}
+
+.movie-info h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.movie-info p {
+  margin: 5px 0;
+}
+
+/* Right side styling */
+.movie-backdrop {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 34px;
+}
+
+.no-poster, .no-backdrop, .no-profile {
+  font-style: italic;
+  color: #777;
+  text-align: center;
+  
+}
+
+/* Cast styling */
+.cast-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cast-member-card {
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.actor-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.cast-member-card p {
+  font-size: 14px;
+  margin: 0;
+  color: white;
+}
